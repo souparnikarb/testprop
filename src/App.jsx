@@ -5,7 +5,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  function handleClick(){
+    console.log("Hello Sherin");
+  }
   return (
     <>
       <div>
@@ -21,6 +23,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <button onClick={handleClick}>Sherin</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
