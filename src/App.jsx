@@ -27,8 +27,8 @@ function handleClick2(){
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <button onClick={handleClick}>souparnika</button>
-        <button onClick={handleClick}>Sherin</button>
+        <button onClick={handleClick1}>souparnika</button>
+        <button onClick={handleClick2}>Sherin</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
