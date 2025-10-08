@@ -8,9 +8,11 @@ function App() {
   function handleClick1(){
     console. log("hello souparnika");
   }
-
 function handleClick2(){
     console.log("Hello Sherin");
+  }
+  function handleClick3(){
+    console.log("Hello Sherin Shanavas");
   }
   return (
     <>
@@ -29,6 +31,7 @@ function handleClick2(){
         </button>
         <button onClick={handleClick1}>souparnika</button>
         <button onClick={handleClick2}>Sherin</button>
+        <button onClick={handleClick3}>Sherin S</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
