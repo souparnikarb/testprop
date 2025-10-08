@@ -15,6 +15,13 @@ function App() {
 function handleClick2(){
     console.log("Hello Sherin");
   }
+  function handleClick4(){
+    console.log("Hello Sherin Shanavas");
+  }
+  function handleClick5(){
+    console.log("Hello Sherin  S");
+    
+  }
   return (
     <>
       <div>
@@ -32,7 +39,9 @@ function handleClick2(){
         </button>
         <button onClick={handleClick1}>souparnika</button>
         <button onClick={handleClick3}>souparnikarb</button>
-        <button onClick={handleClick2}>sherin</button>
+        <button onClick={handleClick2}>Sherin</button>
+        <button onClick={handleClick4}>Sherin S</button>
+        <button onClick={handleClick5}>Sherin 2</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
